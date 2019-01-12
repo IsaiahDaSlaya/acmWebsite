@@ -18,7 +18,8 @@ app.use('/', home);
 app.use('/db', db);
 
 //PORT AND HOST MY NEED TO BE CHANGED FOR DOCKERFILE
-const port = (process.env.PORT || 3000);
+// ** Changed port to 4000 due to another project using 3000.
+const port = (process.env.PORT || 4000);
 const myhost = '0.0.0.0';
 app.listen(port, myhost, ()  => {
     winston.info(`Website is listening at http://${myhost}:${port}...`);
