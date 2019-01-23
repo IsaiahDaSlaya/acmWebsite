@@ -1,138 +1,209 @@
- 
 <!DOCTYPE html>
 <html lang="en">
 
 
 <head>
-  <title>Events Page</title>
+  <title>Events Catalog</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <!-- personal css -->
+  <link rel="stylesheet" href="../styles/style.css">
+
+  <!-- Template CSS-->
+  <link rel="stylesheet" href="../assets/css/main.css" />
+  <noscript>
+    <link rel="stylesheet" href="../assets/css/noscript.css" />
+  </noscript>
 </head>
 
 
 
 <body id="myPage" class="mainStyle is-preload" data-spy="scroll" data-target=".navbar" data-offset="60">
 
-        <nav class="navbar navbar-expand-md fixed-top navbar-dark bg-dark">
-          <a class="navbar-brand acmLogo" href="index.html">
-            <img src="../images/acmLogo.PNG" width="80" height="80" class="d-inline-block align-top" alt="">
-              </a>
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-        
-          <div class="collapse navbar-collapse ml-auto" id="navbarSupportedContent">
-            <ul class="navbar-nav ml-auto">
-              <li class="nav-item"> 
-                <a class="nav-link" href="/">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="/mission">About Us</a>
-              </li>
-              <li class = "nav-item active">
-                <a class = "nav-link" href="/events"> Events </a>
-              <li class="nav-itm">
-                <a class="nav-link" href="/members">Officers</a>
-              </li>
-                
-            </ul>
-            
-          </div>
-        </nav>
+  <nav class="navbar navbar-expand-md fixed-top navbar-dark bg-dark">
+    <a class="navbar-brand acmLogo" href="/">
+      <img src="../images/acmLogo.PNG" width="80" height="80" class="d-inline-block align-top" alt="">
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
 
-<!--- copy the above to each page --->
-<div class="jumbotron eventsJumbotron">
-</div>
-           <!--- the order on this page for events needs to be from future to past --->
-            <!--- if the page gets to long we can archive edit part of it later --->
-            <!--- each event needs an id tag to be used on the index.html page lowercase --->
-            <div class="eventContainer">
-                
-                <div class="inner">
-                    <h1 class="major">Events Catalog</h1>
-                    <section class="features">
+    <div class="collapse navbar-collapse ml-auto" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="/">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/mission">About Us</a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="/events"> Events </a>
+        <li class="nav-itm">
+          <a class="nav-link" href="/members">Officers</a>
+        </li>
 
-                    <article class="hovereffect">
-                      <a href="https://hacknc.com/" class="image"><img src="../images/hackncLogo2.jpg" alt="" /></a>
-                      <h3 class="major">HackNC</h3>
-                      <p>HackNC is a hackathon that will take place at UNC Chapel Hill on October 7-8. Registration is free, but if you have not signed up yet please do so as soon as possible!</p>
-                      <a href="https://hacknc.com/" class="special">Learn more</a>
-                    </article>
+      </ul>
 
-                    <article class="hovereffect">
-                      <a href="https://hackduke.org/" class="image"><img src="../images/hackdukeLogo.jpg" alt="" /></a>
-                      <h3 class="major">HackDuke</h3>
-                      <p>HackDuke is a hackathon that will take place at Duke University on October 13-14. Registration is free, but if you have not signed up yet please do so as soon as possible!</p>
-                      <a href="https://hackduke.org/" class="special">Learn more</a>
-                    </article>
+    </div>
+  </nav>
 
-                    <article class="hovereffect"> 
-                      <a href="http://www.ecu.edu/cs-acad/admissions/openhouse/" class="image"><img src="../images/cupolaPic.jpg" alt="" /></a>
-                      <h3 class="major">Fall Open House 2018</h3>
-                      <p>On October 27th ECU will be hosting open house for prospective students. ACM will be there to represent the club. The event will take place at the Student Rec Center from 8 a.m. - 11:30 a.m.</p>
-                      <a href="http://www.ecu.edu/cs-acad/admissions/openhouse/" class="special">Learn more</a>
-                    </article>
+  <!--- copy the above to each page --->
+  <div class="jumbotron eventsJumbotron">
+  </div>
+  <!--- the order on this page for events needs to be from future to past --->
+  <!--- if the page gets to long we can archive edit part of it later --->
+  <!--- each event needs an id tag to be used on the index.html page lowercase --->
+  <div class="eventContainer">
 
-                    <article class="hovereffect"> 
-                      <a href="" class="image"><img src="../images/pic07.jpg" alt="" /></a>
-                      <h3 class="major">TBA</h3>
-                      <p>TBA</p>
-                      <a href="" class="special">Learn more</a>
-                    </article>
-
-                    <article class="hovereffect"> 
-                      <a href="" class="image"><img src="../images/pic07.jpg" alt="" /></a>
-                      <h3 class="major">TBA</h3>
-                      <p>TBA</p>
-                      <a href="" class="special">Learn more</a>
-                    </article>
-
-                    <article class="hovereffect"> 
-                      <a href="" class="image"><img src="../images/pic07.jpg" alt="" /></a>
-                      <h3 class="major">TBA</h3>
-                      <p>TBA</p>
-                      <a href="" class="special">Learn more</a>
-                    </article>  
-
-                    </section>
-                    </div>
-                    </section>
-
-            </div>
-                    
+    <div class="inner">
+      <h1 class="major eventsTitle">Upcoming Events</h1>
+      <br>
+      <br>
+      <section class="catalog">
 
 
+        <article>
+          <a href="/" class="image hovereffect catalog"><img src="images/acmLogo.png" alt="" /></a>
+          <h3 class="major">ACM Interest Meeting</h3>
+          <br>
+          <p>
+            <b>Topic</b>: Spring 2018 Interest Meeting
+            <br>
+            <b>When</b>: Monday, Jan 14 @ 5:00 PM
+            <br>
+            <b>Where</b>: Scitech 144A
+          </p>
+        </article>
+        <article>
+          <a href="https://pearlhacks.com/" class="image hovereffect catalog"><img src="images/pearl.png" alt="" /></a>
+          <h3 class="major">Pearl Hacks</h3>
+          <br>
+          <p>
+            <b>Topic</b>: Hackathon for Female and Non-Binary College Students
+            <br>
+            <b>When</b>: Sat-Sun, Feb 16-17
+            <br>
+            <b>Where</b>: UNC-Chapel Hill
+          </p>
+        </article>
+        <article>
+          <a href="https://www.rtp.org/company/ibm-corporation/" class="image hovereffect"><img src="images/ibm.png"
+              alt="" /></a>
+          <h3 class="major">IBM Company Visit</h3>
+          <br>
+          <p>
+            <b>Topic</b>: IBM Visit
+            <br>
+            <b>When</b>: TBA
+            <br>
+          </p>
+        </article>
+        <article>
+          <a href="https://www.rtp.org/company/glaxosmithkline/" class="image hovereffect"><img src="images/gsk.png"
+              alt="" /></a>
+          <h3 class="major">GSK & Cisco Company Visit</h3>
+          <br>
+          <p>
+            <b>Topic</b>: GSK & Cisco Visit
+            <br>
+            <b>When</b>: TBA
+            <br>
+          </p>
+        </article>
+        <article>
+          <a href="/events" class="image hovereffect"><img src="images/cet.png" alt="" /></a>
+          <h3 class="major">CET Gala</h3>
+          <br>
+          <p>
+            <b>Topic</b>: Fundraising Gala for the College of Engineering and Technology
+            <br>
+            <b>When</b>: TBA
+            <br>
+            <b>Where</b>: TBA
+          </p>
+        </article>
+        <article>
+          <a href="/events" class="image hovereffect"><img src="images/Spark.jpg" alt="" /></a>
+          <h3 class="major">ECU Spark Hackathon</h3>
+          <br>
+          <p>
+            <b>Topic</b>: Interdisciplinary Hackathon
+            <br>
+            <b>When</b>: TBA
+            <br>
+            <b>Where</b>: TBA
+          </p>
+        </article>
+
+
+
+      </section>
+    </div>
+    <br>
+    <br>
+    <br>
+    <div class="inner">
+      <h1 class="major eventsTitle">Past Events</h1>
+      <br>
+      <br>
+      <section class="catalog">
+        <article class="hovereffect">
+          <a href="http://www.ecu.edu/cs-acad/admissions/openhouse/" class="image catalog"><img src="../images/cupolaPic.jpg"
+              alt="" /></a>
+          <h3 class="major">Fall Open House 2018</h3>
+          <br>
+          <p>On October 27th ECU will be hosting open house for prospective students. ACM will be there to represent
+            the club. The event will take place at the Student Rec Center from 8 a.m. - 11:30 a.m.</p>
+        </article>
+
+        <article class="hovereffect">
+          <a href="https://hacknc.com/" class="image catalog"><img src="../images/hackncLogo2.jpg" alt="" /></a>
+          <h3 class="major">HackNC</h3>
+          <br>
+          <p>HackNC is a hackathon that will take place at UNC Chapel Hill on October 7-8. Registration is free, but if
+            you have not signed up yet please do so as soon as possible!</p>
+        </article>
+
+
+      </section>
+
+
+    </div>
+
+
+    </section>
+
+  </div>
 
 
 
 
-<!--- copy the below to each page --->
 
 
-<!-- Latest compiled and minified CSS -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
 
-<!-- jQuery library -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <!--- copy the below to each page --->
 
-<!-- Popper JS -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
 
-<!-- Latest compiled JavaScript -->
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
 
-<!-- personal css -->
-<link rel="stylesheet" href="../styles/style.css">
+  <!-- jQuery library -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
-<!-- Template CSS-->
-<link rel="stylesheet" href="../assets/css/main.css" />
-<noscript><link rel="stylesheet" href="../assets/css/noscript.css" /></noscript>
-<script src="../assets/js/jquery.min.js"></script>
-<script src="../assets/js/jquery.scrollex.min.js"></script>
-<script src="../assets/js/browser.min.js"></script>
-<script src="../assets/js/breakpoints.min.js"></script>
-<script src="../assets/js/util.js"></script>
-<script src="../assets/js/main.js"></script>
+  <!-- Popper JS -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+
+  <!-- Latest compiled JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+
+
+  <script src="../assets/js/jquery.min.js"></script>
+  <script src="../assets/js/jquery.scrollex.min.js"></script>
+  <script src="../assets/js/browser.min.js"></script>
+  <script src="../assets/js/breakpoints.min.js"></script>
+  <script src="../assets/js/util.js"></script>
+  <script src="../assets/js/main.js"></script>
 
 </body>
 
